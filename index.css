@@ -1,0 +1,38 @@
+.divdroite{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+p:hover{
+    color: violet;
+    cursor: pointer;
+    transition: 0.5s;
+}
+button{
+    color: violet;
+    border: 1px solid violet;
+    border-radius: 5px;
+    background-color: inherit;
+}
+button:hover{
+    color:white;
+    background-color: violet;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.divgauche{
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    color: violet;
+}
+.btn2{
+    padding: 10px;
+}
+.lorem{
+    width: 700px;
+}
